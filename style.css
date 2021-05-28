@@ -1,3 +1,7 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
 .topb {
     list-style-type: none;
     margin-top: 20px;
@@ -7,7 +11,6 @@
 .topb li {
     display: inline;
     margin-left: 15px;
-    font-size: 14px;
 }
 
 .apps {
@@ -60,6 +63,7 @@ div {
     height: 40px;
     border-radius: 22px;
     border-width: thin;
+    opacity: 0.2;
 }
 
 .mic {
@@ -76,6 +80,7 @@ div {
     background-size: cover;
     background-color: transparent;
     border: none;
+    opacity: 0.5;
 }
 
 .search {
@@ -92,6 +97,7 @@ div {
     background-size: cover;
     background-color: transparent;
     border: none;
+    opacity: 0.5;
 }
 .midb {
     position: absolute;
@@ -127,13 +133,12 @@ div {
     bottom: 0;
     left: 0;
     list-style-type: none;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 0;
 }
 .botb li {
     display: inline;
     margin-left: 20px;
-    font-size: 14px;
 }
 footer {
     display: block;
@@ -146,5 +151,4 @@ footer {
 .botb2 li {
     display: inline;
     margin-right: 30px;
-    font-size: 14px;
 }
