@@ -1,1 +1,2 @@
-# google-homepage
+In this project I tried to mimic the original Google homepage, as part of the curriculum for the Odin Project.
+Through building the project I learned the basic stuff, it might have taken me more than it should, but it was definetely worth it.
