@@ -2,6 +2,12 @@ body {
     font-family: arial, sans-serif;
     font-size: 14px;
 }
+div {
+    position: relative;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%, -50%);
+}
 .topb {
     list-style-type: none;
     margin-top: 20px;
@@ -35,10 +41,6 @@ body {
     border-radius: 2px;
     margin-top: -5px;
     margin-right: 20px;
-}
-div {
-    position: relative;
-    width: 1400px;
 }
 
 .logo {
@@ -111,7 +113,8 @@ div {
     height: 37px;
     width: 130px;  
     border: none;
-    border-radius: 5px; 
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
 }
 .midb2 {
     position: absolute;
@@ -126,6 +129,7 @@ div {
     width: 130px;  
     border: none;
     border-radius: 5px; 
+    background-color: rgb(241, 241, 241);
 }
 .botb {
     display: block;
