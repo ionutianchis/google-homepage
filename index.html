@@ -1,40 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Google Homepage Clone</title>
+</head>
 
 <body>
-<header>
-    <ul class="topb">
-        <li><a>About</a></li>
-        <li><a>Store</a></li>
-        <li style="float:right" class="si">Sign in</li>
-        <li style="float:right"><button type="button" class="apps"></button></li>
-        <li style="float:right"><a>Images</a></li>
-        <li style="float:right"><a>Gmail</a></li>
-    </ul>
+    <header>
+        <nav>
+            <div class="nav-left-buttons">
+                <ul class="nav-list">
+                    <li>
+                        <a href='#'>About</a>
+                    </li>
+                    <li>
+                        <a href='#'>Store</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav-right-buttons">
+                <ul class="nav-list">
+                    <li>
+                        <a href='#'>Gmail</a>
+                    </li>
+                    <li>
+                        <a href='#'>Images</a>
+                    </li>
+                    <li>
+                        <button type="button" class="apps-button"></button>
+                    </li>
+                    <li>
+                        <button class="sign-in-button">Sign in</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-</header>
+    <main>
+        <img src="./images/google-logo.svg">
 
-    <div>
-        <img src="googlelogo_color_272x92dp.png" class="logo">
-        <input type="text" class="sbar">
-        <button type="button" class="mic"></button>
-        <button type="button" class="search"></button>
-        <button type="button" class="midb">Google Search</button>
-        <button type="button" class="midb2">I'm Feeling Lucky</button>
+        <div class="input-container">
+            <input type="search" class="search-bar">
+            <button type="button" class="search-button"></button>
+            <button type="button" class="keyboard-button"></button>
+        </div>
 
-    </div>
+        <div class="text-buttons-container">
+            <button type="button" class="text-button google-search-button">Google Search</button>
+            <button type="button" class="text-button lucky-button">I'm Feeling Lucky</button>
+        </div>
+    </main>
+
     <footer>
-        <ul class="botb">
-            <li><a>Advertising</a></li>
-            <li><a>Business</a></li>
-            <li><a>How Search works</a></li>
-        </ul>
-        <ul class="botb2">
-            <li style="float:right">Settings<a></a></li>
-            <li style="float:right">Terms<a></a></li>
-            <li style="float:right">Privacy<a></a></li>
-        </ul>
+        <div class="footer-left-buttons">
+            <ul class="footer-list">
+                <li><a href='#'>Advertising</a></li>
+                <li><a href='#'>Business</a></li>
+                <li><a href='#'>How Search works</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-right-buttons">
+            <ul class="footer-list">
+                <li><a href='#'>Settings</a></li>
+                <li><a href='#'>Terms</a></li>
+                <li><a href='#'>Privacy</a></li>
+            </ul>
+        </div>
     </footer>        
 </body>
 </html>
